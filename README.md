@@ -8,7 +8,12 @@ if you have not installed anaconda or pip, do it first.
 
 -Here is how in Ubuntu:
 - open terminal
+- with pip
 
+$ pip install torch==1.8.0+cpu torchvision==0.9.0+cpu torchaudio===0.8.0 -f https://download.pytorch.org/whl/torch_stable.html
+
+- with anaconda
+- 
 $ cd /tmp
 $ curl -O https://repo.anaconda.com/archive/Anaconda3-2019.03-Linux-x86_64.sh
 
